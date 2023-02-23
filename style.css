@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  height: 1024px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  font-family: "Montserrat";
+  font-style: normal;
+  display: flex;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding-top: 217px;
+  width: 788px;
+}
+.content__slogan {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+}
+.content__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  padding-top: 32px;
+}
+.content__button {
+  width: 234px;
+  height: 48px;
+  background: #9C0332;
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 44px;
+}
+
+.games {
+  background: #000915;
+}
+.games__list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  padding-bottom: 128px;
+  padding-top: 128px;
+}
+.games__item {
+  list-style-type: none;
+  height: 300px;
+  width: 100%;
+  display: flex;
+}
+.games__link {
+  display: flex;
+  flex-grow: 1;
+  text-decoration-line: none;
+}
+
+.game__box {
+  flex-grow: 1;
+  border-radius: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  flex-direction: row;
+  align-items: flex-end;
+  text-decoration: none;
+}
+
+.game__box--1 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/item_1.jpg);
+}
+
+.game__box--2 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/item_2.jpg);
+}
+
+.game__box--3 {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/item_3.jpg);
+}/*# sourceMappingURL=style.css.map */
