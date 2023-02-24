@@ -79,8 +79,7 @@
 
 // let num = prompt('Пожалуйста, введите любое число');
 // num = Number(num);
-// let checkNum = isNaN(num);
-// if (checkNum != true) {
+// if (isNaN(num) != true) {
 //     if (num % 2 === 0) {
 //         alert('Число четное');
 //     } else {
@@ -106,7 +105,7 @@
 
 // let clientOS = 0; //(0 — iOS, 1 — Android)
 // let clientDeviceYear = 2000;
-// if (clientOS === 0) {
+// if (!clientOS) {
 //     if (clientDeviceYear >= 2015) {
 //         console.log('Установите версию приложения для iOS по ссылке');
 //     } else {
