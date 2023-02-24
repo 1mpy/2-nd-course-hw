@@ -1,0 +1,100 @@
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        height: 735px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(./img/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .content {
+        font-family: 'Montserrat';
+        font-style: normal;
+        color: #FFFFFF;
+        padding-top: 238px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+
+        &__slogan {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            padding-right: 0;
+            text-align: center;
+        }
+
+        &__text {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            padding-right: 0;
+            text-align: center;
+        }
+
+        &__button {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            margin-top: 32px;
+        }
+    }
+
+    .games {
+        background: #000915;
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .game__box {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .catalog {
+        background: #000915;
+    }
+
+    .game {
+        &__block {
+            display: flex;
+            flex-direction: column;
+            padding-top: 51px;
+            padding-bottom: 59px;
+
+            &--text {
+                align-items: center;
+            }
+        }
+
+        &__name {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+        }
+
+        &__details {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+
+        &__img {
+            padding-top: 64px;
+            width: 100%;
+        }
+
+    }
+}
