@@ -24,7 +24,6 @@
     display: flex;
     flex-direction: column;
     padding-top: 217px;
-
     &__slogan {
         font-weight: 700;
         font-size: 64px;
@@ -55,7 +54,6 @@
         text-decoration: none;
         margin-top: 44px;
         transition: 0.5s;
-
         &:hover {
             background: #EB443F;
             cursor: pointer;
@@ -65,7 +63,6 @@
 
 .games {
     background: #000915;
-
     &__list {
         display: flex;
         flex-direction: row;
@@ -80,7 +77,6 @@
         width: 100%;
         display: flex;
         border: 3px solid transparent;
-
         &:hover {
             border: 3px solid #44D2FF;
             border-radius: 16px;
@@ -173,6 +169,10 @@
             cursor: pointer;
         }
     }
+}
+
+.reverse {
+    flex-direction: row-reverse;
 }
 
 .game__box--1 {
