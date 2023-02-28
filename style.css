@@ -160,6 +160,10 @@
   cursor: pointer;
 }
 
+.reverse {
+  flex-direction: row-reverse;
+}
+
 .game__box--1 {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/item_1.jpg);
 }
