@@ -83,7 +83,10 @@
 
 // Задание 10
 
-// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let arr = [];
+// for (let i = 1; i <= 10; i++){
+//     arr.push(i);    
+// }
 // sum = arr[0] + arr[1];
 // console.log(sum);
 // for (let i = 2; i <= arr.length; i++) {
@@ -109,10 +112,8 @@
 // for (let i = 0; i < 6; i++) {
 //     randomArr.push(Math.floor(Math.random() * 10) + 1);
 // }
-// let sum = 0;
-// for (i = 0; i < randomArr.length; i++) {
-//     sum += randomArr[i];
-// }
+// let num = 0;
+// const sum = randomArr.reduce((accumulator, currentValue) => accumulator + currentValue, num);
 // let result = sum / randomArr.length;
 // console.log(randomArr);
 // console.log(result);
