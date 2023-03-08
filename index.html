@@ -9,6 +9,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script>        
+        function func() {
+        let list = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+        list = list.sort(() => Math.random() - 0.5);
+        alert(list);
+        askFirst = prompt('Чему равнялся первый элемент массива?');
+        askLast = prompt('Чему равнялся последний элемент массива?');
+            if (askFirst === list[0] && askLast === list[list.length - 1]) {
+                alert('Поздравляю! Вы угадали оба элемента');
+            } else if (askFirst == list[0] || askLast == list[list.length - 1]) {
+                alert('Вы были близки к победе!');        
+            } else {
+                alert('Вы ответили неверно');
+            }
+        }
+    </script>
 </head>
 <body>
     <section class="top center">
@@ -16,7 +32,7 @@
             <h1 class="content__slogan">Добро пожаловать на мой сайт !</h1>
             <p class="content__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
                 <strong>поехали</strong> и <strong>приступай</strong></p>
-            <a href="#" class="content__button">Поехали!</a>
+            <a  class="content__button">Поехали!</a>
         </div>
     </section>
     <section class="games center">
@@ -49,9 +65,9 @@
             <div class="game__block--text">
                 <h1 class="game__name">Запомни слова </h1>
                 <p class="game__details">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
-                <a href="#" class="game__button">Играть</a>
+                <a href="#" onclick="func()" class="game__button">Играть</a>            
             </div>
-            <img class="game__img" src="/img/video_game_2.svg" alt="#">
+            <img class="game__img"  src="/img/video_game_2.svg" alt="#">
         </div>
 
     </section>
@@ -59,11 +75,11 @@
         <div class="game__block--text middle center">
             <h1 class="game__name">Игра в загадки</h1>
             <p class="game__details">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
-            <a href="#" class="game__button">Играть!</a>
+            <a href=" " class="game__button">Играть!</a>
         </div>
     </div>
     <footer class="footer">
         <p class="footer__text">Все права защищены</p>
-    </footer>    
+    </footer>
 </body>
 </html>
