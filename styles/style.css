@@ -10,7 +10,7 @@
 
 .top {
   height: 1024px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(./img/background.jpg);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(/img/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -178,15 +178,15 @@
 }
 
 .game__box--1 {
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/item_1.jpg);
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(/img/item_1.jpg);
 }
 
 .game__box--2 {
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/item_2.jpg);
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(/img/item_2.jpg);
 }
 
 .game__box--3 {
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/item_3.jpg);
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(/img/item_3.jpg);
 }
 
 .footer {
@@ -212,7 +212,7 @@
   }
   .top {
     height: 735px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(./img/background.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(/img/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
