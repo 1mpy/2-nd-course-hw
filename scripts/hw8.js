@@ -3,7 +3,7 @@
 // Задание 1.1
 
 // let arr = [4, 15, -3, 4, 52, 15, 1, -8, 2, 1];
-// function getResult(callback){
+// function getResult(arr, callback){
 //     return sum(callback);
 // }
 
@@ -15,13 +15,12 @@
 // return result;
 // }
 
-// console.log(getResult(arr, sum));
+// console.log(sum(arr));
 
 // Задание 1.2
 
-// let arr = [4, 15, -3, 4, 52, 15, 1, -8, 2, 1];
-// function getResult(callback){
-//     return mult(callback);
+// function getResult(arr, mult){
+//     return mult(arr);
 // }
 
 // function mult(arr) { 
@@ -32,7 +31,7 @@
 // return result;
 // }
 
-// console.log(getResult(arr, mult));
+// console.log(mult(arr));
 
 
 // Задание 2
@@ -45,8 +44,9 @@
 // 	{name: 'Bob', age: 44}
 // ];
 
-// function getSortedArrayObj(users, compareUser) {
-//     return users.sort(compareUser);
+// function getSortedArrayObj() {
+//     users.sort(compareUser);
+//     console.log(users);
 // }
 
 // function compareUser(a, b) {
@@ -55,7 +55,7 @@
 //     return 0;
 // }
 
-// console.log(getSortedArrayObj(users, compareUser));
+// getSortedArrayObj(users);
 
 
 // Задание 3
